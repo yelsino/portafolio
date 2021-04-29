@@ -43,9 +43,8 @@ const Gestion = () => {
 								listas de pedidos
 							</h2>
 							<p className="text-white break-words leading-7 text-center mt-5">
-								Esta aplicacion web tiene como objetivo permitir a los usuarios
-								realizar pedidos de productos vegetales, a travez de multiples
-								listas de pedidos
+								Esta aplicacion web tiene como objetivo gestionar pedidos que se
+								generan a travez de una aplicacion web de pedidos.
 							</p>
 							<div className="my-5 flex justify-center flex-col items-center">
 								<h3 className="mb-5 ">lenguaje de programacion</h3>
@@ -83,7 +82,7 @@ const Gestion = () => {
 										<a
 											className="text-pri-light-blue cursor-pointer font-bold hover:text-pink-600"
 											target="_blank"
-											href="https://negocios-carlos.000webhostapp.com/"
+											href="https://admin-negocios-carlos.000webhostapp.com/"
 										>
 											link
 										</a>
@@ -99,7 +98,7 @@ const Gestion = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border  hover:border-red-500 hover:bg-red-200 border-red-500"
 					>
 						cerrar
 					</button>
@@ -110,11 +109,11 @@ const Gestion = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
-		
+
 					<img className=" sm:w-full md:w-8/12 lg:w-6/12" src={Img3} />
 				</SplideSlide>
 				<SplideSlide>
@@ -122,7 +121,7 @@ const Gestion = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -133,7 +132,7 @@ const Gestion = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -144,7 +143,7 @@ const Gestion = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>

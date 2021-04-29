@@ -77,7 +77,7 @@ const Pedidos = () => {
 								</div>
 							</div>
 
-							<div className='flex'>
+							<div className="flex">
 								<div className="my-5 flex justify-center flex-col items-center mr-10">
 									<h3 className="">visitar aplicacion</h3>
 									<div className="flex">
@@ -112,7 +112,7 @@ const Pedidos = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -123,7 +123,7 @@ const Pedidos = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -134,7 +134,7 @@ const Pedidos = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -145,7 +145,7 @@ const Pedidos = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
@@ -156,7 +156,7 @@ const Pedidos = () => {
 						onClick={() => {
 							history.push("");
 						}}
-						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-white hover:border-red-500 hover:bg-red-200"
+						className="text-red-500  bottom-10 right-0 absolute bg-white px-4 py-2 rounded-lg border border-red-500 hover:border-red-500 hover:bg-red-200"
 					>
 						cerrar
 					</button>
