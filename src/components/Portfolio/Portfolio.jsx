@@ -23,15 +23,15 @@ const Portflolio = () => {
               </p>
               <div className=" flex justify-start gap-x-10">
                 {p.liveDemo && (
-                  <button className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
+                  <a target='_blank' href={p.repository}  className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
                     Github
-                  </button>
+                  </a>
                 )}
 
                 {p.liveDemo && (
-                  <button className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
+                  <a target='_blank' href={p.liveDemo} className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
                     Ver demo
-                  </button>
+                  </a>
                 )}
               </div>
             </div>
