@@ -7,10 +7,6 @@
   pointer-events: none;
 }
 
-.hover__animate:hover {
-  animation: bounce 1s infinite;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -31,39 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-@media screen and (min-height: 800px) {
-  .titulo{
-    display: flex;
-  }
-}
-@media screen and (max-height: 800px) {
-  .laptop{
-    display: none;
-  }
-  .laptopshow{
-    display: flex;
-  }
-    .images{
-    width: 10%;
-  }
- 
-}
-@media screen and (max-height: 700px) {
-    .images{
-    width: 55%;
-  }
-}
-@media screen and (max-height: 600px) {
-    .images{
-    width: 70%;
-  }
-}
-@media screen and (max-height: 500px) {
-    .images{
-    width: 80%;
-  }
-}
-
 
 @keyframes App-logo-spin {
   from {
@@ -72,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
 }
