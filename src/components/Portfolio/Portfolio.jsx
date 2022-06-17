@@ -23,13 +23,21 @@ const Portflolio = () => {
               </p>
               <div className=" flex justify-start gap-x-10">
                 {p.liveDemo && (
-                  <a target='_blank' href={p.repository}  className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
+                  <a
+                    target="_blank"
+                    href={p.repository}
+                    className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg"
+                  >
                     Github
                   </a>
                 )}
 
                 {p.liveDemo && (
-                  <a target='_blank' href={p.liveDemo} className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
+                  <a
+                    target="_blank"
+                    href={p.liveDemo}
+                    className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg"
+                  >
                     Ver demo
                   </a>
                 )}
@@ -58,25 +66,25 @@ const proyects = [
     description:
       "Aplicación web para gestionar eficientemente pedidos de una tienda de vegetales y controlar deudas de clientes frecuentes",
     detalle:
-      "Esta aplicación está contruida para el control y gestion de listas de pedidos que se generan a travez de una tienda online, ademas controla los creditos de clientes presenciales del negocio",
+      "Esta aplicación está construida para el control y gestión de listas de pedidos que se generan a través de una tienda online, además controla los créditos de clientes presenciales del negocio.",
     repository: "https://github.com/yelsino/ncarlos-admin-v2",
     liveDemo: "https://admin-ncarlos.web.app/ventas/pedidos",
   },
   {
     img: screen1,
     description:
-      "Aplicación web para la  venta de vegetales al por minoreo a travez de listas de productos",
+      "Aplicación web para la venta de vegetales al por minoreo a través de listas de productos.",
     detalle:
-      "Esta aplicación web permite a las personas seleccionar sus productos en distintas listas y hacer un pedidos de aquellas, esto brinda al cliente flexibilidad y ahorro de tiempo al comprar productos habituales como las papas que siempre se utiliza en una cocina o productos de una receta para dias especiales",
+      "Esta aplicación web permite a las personas seleccionar sus productos en distintas listas y hacer un pedidos de aquellas, esto brinda al cliente flexibilidad y ahorro de tiempo al comprar productos habituales como las papas que siempre se utiliza en una cocina o productos de una receta para días especiales.",
     repository: "https://github.com/yelsino/ns-carlos-tienda-v2",
     liveDemo: "https://yola-satipo.web.app/",
   },
   {
     img: screen3,
     description:
-      "Landing page una web para atraer clientes con necesidades de servicios informáticos",
+      "Landing page una web para atraer clientes con necesidades de servicios informáticos.",
     detalle:
-      "Esta landing page fue contruida para idexa peru una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de huancayo principalmente ",
+      "Esta landing page fue construida para “idexa perú” una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de Huancayo principalmente.",
     repository: "https://github.com/yelsino/portafolio",
     liveDemo: "https://idexaperu.com/",
   },
