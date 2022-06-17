@@ -14,19 +14,17 @@ const AboutMe = () => {
           ))}
         </div>
         <div className=" text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
-          <p>Hola soy Yelsin Caso, egresado Computación e informática en 2021.</p>
 
-          <p>Tengo 25 años, mi especialidad es el desarrollo frontend y tengo el objectivo en este mundo tecnologico desarrollar experiencias de usuario únicos.</p>
+          <p>  Hola soy Yelsin Caso, egresado de Computación e informática en 2021.</p>
+
+          <p>Tengo 25 años, mi especialidad es el desarrollo frontend y tengo el objetivo en este mundo tecnológico desarrollar experiencias de usuario únicos.</p>
           <p>Siempre estoy aprendiendo autodidacticamente en plataformas como Udemy o Youtube.</p>
           <p>
-            Llevo mas de 2 años enfocado en el desarrollo de sistemas web, mi
-            compromiso, es desarrollar sistemas modernos con diseños agradables
-            e intuitivos para mis clientes.
+          Llevo más de 2 años enfocado en el desarrollo de sistemas web, mi compromiso, es desarrollar sistemas modernos con diseños agradables e intuitivos para mis clientes.
           </p>
 
           <p>
-            Actualmente estoy desarrollando una tienda online para la venta de
-            vegetales al por minoreo en mis ratos libres. visitalo aqui
+          Actualmente estoy desarrollando una tienda online para la venta de vegetales al por minoreo en mis ratos libres. visitalo aqui
             <a target='_blank' className="text-color_blue1" href="https://yola-satipo.web.app/"> yola-satipo.web.app</a>
             
           </p>
