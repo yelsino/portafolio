@@ -1,6 +1,7 @@
 import screen1 from "../../Assets/screen1.png";
 import screen2 from "../../Assets/screen2.png";
 import screen3 from "../../Assets/screen3.png";
+import screen4 from "../../Assets/screen4.png";
 
 const Portflolio = () => {
   return (
@@ -46,11 +47,11 @@ const Portflolio = () => {
           </div>
         ))}
 
-        <div className=" bg-color_purple2 p-5 rounded-3xl ">
+        {/* <div className=" bg-color_purple2 p-5 rounded-3xl ">
           <div className="max-w-xl mx-auto flex items-center h-full justify-center ">
             <p className="font-poppins font-bold ">PROXIMAMENTE...</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
@@ -87,5 +88,13 @@ const proyects = [
       "Esta landing page fue construida para “idexa perú” una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de Huancayo principalmente.",
     repository: "https://github.com/yelsino/portafolio",
     liveDemo: "https://idexaperu.com/",
+  },
+  {
+    img: screen4,
+    description: "Aplicación móvil para gestionar tareas personales diarias.",
+    detalle:
+      "Esta aplicación web diseñada solo para dispositivos móviles donde puedes gestionar tus tareas cotidianas del día a día.",
+    repository: "https://github.com/yelsino/daily-task",
+    liveDemo: "https://daily-tasks-2fb89.web.app/",
   },
 ];
