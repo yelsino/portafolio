@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CV from "../../Assets/cv-yelsiño.pdf";
 import Slider from "../Atoms/Slider";
 
@@ -27,7 +28,7 @@ const Home = () => {
       <Slider />
 
 
-      <div className="absolute top-1/2 left-0 text-2xl text-color_purple3 flex flex-col items-center gap-y-5 -translate-y-[77px]">
+      <div className="absolute top-1/2 left-0 text-2xl text-color_purple3  flex-col items-center gap-y-5 -translate-y-[77px] hidden sm:flex">
         <a href="https://www.instagram.com/yelsino321/?hl=es" target="_blank">
           <svg width="1em" height="1em" viewBox="0 0 24 24">
             <g
@@ -54,6 +55,8 @@ const Home = () => {
 
         <div className="w-1 h-12 bg-color_purple3"></div>
       </div>
+
+      {/* <Link to='/blog' className="absolute top-10 right-0 text-color_purple3 font-bold hover:text-white cursor-default transition duration-500">Blog</Link> */}
     </div>
   );
 };

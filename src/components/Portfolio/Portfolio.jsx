@@ -1,7 +1,9 @@
+// @ts-nocheck
 import screen1 from "../../Assets/screen1.png";
 import screen2 from "../../Assets/screen2.png";
 import screen3 from "../../Assets/screen3.png";
 import screen4 from "../../Assets/screen4.png";
+import { alltools } from "../Atoms/images";
 
 const Portflolio = () => {
   return (
@@ -19,9 +21,21 @@ const Portflolio = () => {
                 {p.description}
               </p>
 
+        
+
               <p className="text-lg text-left font-dm-sans text-color_purple3">
                 {p.detalle}
               </p>
+              <div className="flex gap-x-5 flex-col">
+                <p className="text-left pb-2">Desarrollado con</p>
+                <div className="flex flex-wrap gap-x-5 gap-y-2 ">
+                {p.tools.map(({text},index) => (
+                  <span key={index}
+                    className=' font-semibold text-color_purple3'
+                  >{text}</span>
+                ))}
+                </div>
+              </div>
               <div className=" flex justify-start gap-x-10">
                 {p.liveDemo && (
                   <a
@@ -61,6 +75,9 @@ const Portflolio = () => {
 
 export default Portflolio;
 
+
+const {javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio, typescript, springboot} = alltools
+
 const proyects = [
   {
     img: screen2,
@@ -70,6 +87,7 @@ const proyects = [
       "Esta aplicación está construida para el control y gestión de listas de pedidos que se generan a través de una tienda online, además controla los créditos de clientes presenciales del negocio.",
     repository: "https://github.com/yelsino/ncarlos-admin-v2",
     liveDemo: "https://admin-ncarlos.web.app/ventas/pedidos",
+    tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],
   },
   {
     img: screen1,
@@ -79,6 +97,7 @@ const proyects = [
       "Esta aplicación web permite a las personas seleccionar sus productos en distintas listas y hacer un pedidos de aquellas, esto brinda al cliente flexibilidad y ahorro de tiempo al comprar productos habituales como las papas que siempre se utiliza en una cocina o productos de una receta para días especiales.",
     repository: "https://github.com/yelsino/ns-carlos-tienda-v2",
     liveDemo: "https://yola-satipo.web.app/",
+    tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],
   },
   {
     img: screen3,
@@ -88,13 +107,15 @@ const proyects = [
       "Esta landing page fue construida para “idexa perú” una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de Huancayo principalmente.",
     repository: "https://github.com/yelsino/portafolio",
     liveDemo: "https://idexaperu.com/",
+    tools: [javascript,tailwindcss,figma,reactjs],
   },
   {
     img: screen4,
-    description: "Aplicación móvil para gestionar tareas personales diarias.",
+    description: "Aplicación para gestionar todas tus tareas personales diarias.",
     detalle:
       "Esta aplicación web diseñada solo para dispositivos móviles donde puedes gestionar tus tareas cotidianas del día a día.",
     repository: "https://github.com/yelsino/daily-task",
-    liveDemo: "https://daily-tasks-2fb89.web.app/",
+    liveDemo: "https://comsatel-tasks.web.app/",
+    tools: [typescript,tailwindcss,figma,reactjs, springboot],
   },
 ];
