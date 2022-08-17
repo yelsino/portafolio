@@ -110,7 +110,7 @@ const proyects = [
     tools: [javascript,tailwindcss,figma,reactjs],
   },
   {
-    img: screen4,
+    img: 'https://res.cloudinary.com/dwkfj5sxb/image/upload/v1656948862/SCREEN-MY-APPS/mobile-comsatel-task_jbxruj.png',
     description: "Aplicación para gestionar todas tus tareas personales diarias.",
     detalle:
       "Esta aplicación web diseñada solo para dispositivos móviles donde puedes gestionar tus tareas cotidianas del día a día.",
