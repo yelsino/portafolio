@@ -28,11 +28,19 @@ const hBackend = [
   },
   {
     herramienta: "MongoDB",
-    nivel: "Basic",
+    nivel: "Intermediante",
   },
   {
     herramienta: "Mongoose",
     nivel: "Intermediante",
+  },
+  {
+    herramienta: "Spring Boot",
+    nivel: "Basico",
+  },
+  {
+    herramienta: "Mysql",
+    nivel: "Basico",
   },
 ];
 
@@ -52,5 +60,13 @@ const hFrontend = [
   {
     herramienta: "React",
     nivel: "Experimentado",
+  },
+  {
+    herramienta: "Tailwind",
+    nivel: "Experimentado",
+  },
+  {
+    herramienta: "Angular",
+    nivel: "Basico",
   },
 ];

@@ -53,6 +53,11 @@ export const alltools =  {
         img: socketio,
         text: 'spring boot',
         color: '#0079BF',
+    },
+    antdesign: {
+        img: socketio,
+        text: 'ant design',
+        color: '#0079BF',
     }
    
 }

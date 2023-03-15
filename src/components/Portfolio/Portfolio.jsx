@@ -61,11 +61,6 @@ const Portflolio = () => {
           </div>
         ))}
 
-        {/* <div className=" bg-color_purple2 p-5 rounded-3xl ">
-          <div className="max-w-xl mx-auto flex items-center h-full justify-center ">
-            <p className="font-poppins font-bold ">PROXIMAMENTE...</p>
-          </div>
-        </div> */}
       </div>
     </div>
   );
@@ -76,19 +71,9 @@ const Portflolio = () => {
 export default Portflolio;
 
 
-const {javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio, typescript, springboot} = alltools
+const {javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio, typescript, springboot,antdesign } = alltools
 
 const proyects = [
-  {
-    img: screen2,
-    description:
-      "Aplicación web para gestionar eficientemente pedidos de una tienda de vegetales y controlar deudas de clientes frecuentes",
-    detalle:
-      "Esta aplicación está construida para el control y gestión de listas de pedidos que se generan a través de una tienda online, además controla los créditos de clientes presenciales del negocio.",
-    repository: "https://github.com/yelsino/ncarlos-admin-v2",
-    liveDemo: "https://admin-ncarlos.web.app/ventas/pedidos",
-    tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],
-  },
   {
     img: screen1,
     description:
@@ -100,11 +85,23 @@ const proyects = [
     tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],
   },
   {
+    img: screen2,
+    description:
+      "Aplicación web para gestionar eficientemente pedidos de una tienda de vegetales y controlar deudas de clientes frecuentes",
+    detalle:
+      "Esta aplicación está construida para el control y gestión de listas de pedidos que se generan a través de una tienda online, además controla los créditos de clientes presenciales del negocio.",
+    repository: "https://github.com/yelsino/ncarlos-admin-v2",
+    liveDemo: "https://admin-ncarlos.web.app/ventas/pedidos",
+    tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],
+  },
+ 
+  {
     img: screen3,
     description:
       "Landing page una web para atraer clientes con necesidades de servicios informáticos.",
-    detalle:
-      "Esta landing page fue construida para “idexa perú” una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de Huancayo principalmente.",
+    detalle: <p> Esta landing page fue construida para
+      <a href="https://idexaperu.com/" target='_blank' className="text-color_blue1" > Idexa Perú</a> una reciente empresa en el mercado para solucionar distintos problemas informáticos en la localidad de Huancayo principalmente.
+    </p>,
     repository: "https://github.com/yelsino/portafolio",
     liveDemo: "https://idexaperu.com/",
     tools: [javascript,tailwindcss,figma,reactjs],
@@ -117,5 +114,14 @@ const proyects = [
     repository: "https://github.com/yelsino/daily-task",
     liveDemo: "https://comsatel-tasks.web.app/",
     tools: [typescript,tailwindcss,figma,reactjs, springboot],
+  },
+  {
+    img: 'https://res.cloudinary.com/dwkfj5sxb/image/upload/v1678900232/SCREEN-MY-APPS/Sistema_de_prestamos_epfksy.png',
+    description: "Aplicación para gestionar prestamos de dinero a clientes.",
+    detalle:
+      "Facilita la gestión de préstamos y el seguimiento de las operaciones de préstamo entre prestamistas y prestatarios. Cuenta con seguimiento de pagos y vencimientos de préstamos y un modulo de generación de informes financieros.",
+    repository: "",
+    liveDemo: "https://sistema-pretamista.web.app/",
+    tools: [typescript,tailwindcss, reactjs, antdesign, nodejs],
   },
 ];

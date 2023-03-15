@@ -2,35 +2,58 @@ import ButtonsMe from "./ButtonsMe";
 
 const AboutMe = () => {
   return (
-    <div className="mb-20">
-      <div className="flex items-center flex-col pb-16">
-        <p className="text-color_purple3">conóceme</p>
-        <h2 className="text-3xl">Sobre mí</h2>
+      <div className="mb-20">
+          <div className="flex items-center flex-col pb-16">
+              <p className="text-color_purple3">conóceme</p>
+              <h2 className="text-3xl">Sobre mí</h2>
+          </div>
+          <div className=" ">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
+                  {actionMe.map((action, index) => (
+                      <ButtonsMe key={index} action={action} />
+                  ))}
+              </div>
+              <div className=" text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
+                  <p>
+                      {" "}
+                      Hola soy Yelsin Caso, egresado de Computación e
+                      informática en 2021.
+                  </p>
+
+                  <p>
+                      Tengo 26 años, mi especialidad es el desarrollo frontend y
+                      tengo el objetivo en este mundo tecnológico desarrollar
+                      experiencias de usuario únicos.
+                  </p>
+                  <p>
+                      Siempre estoy aprendiendo autodidacticamente en
+                      plataformas como Udemy o Youtube.
+                  </p>
+                  <p>
+                      Llevo más de 3 años enfocado en el desarrollo de sistemas
+                      web, mi compromiso, es desarrollar sistemas modernos con
+                      diseños agradables e intuitivos para mis clientes.
+                  </p>
+
+                  <p>
+                      Mi ultima experiencia de trabajo fue en{" "}
+                      <a
+                          target="_blank"
+                          className="text-color_blue1"
+                          href="https://www.comsatel.com.pe/"
+                      >
+                          Comsatel Perú
+                      </a>{" "}
+                      colaborando en el desarrollo de un sistema de gestion de
+                      citas para atender instalaciones y mantenimientos de
+                      equipos GPS a distintos vehículos.
+                  </p>
+                  <p>
+                      Actualmente estoy realizando trabajos freelance e investigando herramientas de "Inteligencia Artificial" para aplicarlas en el desarrollo de sistemas web.
+                  </p>
+              </div>
+          </div>
       </div>
-      <div className=" ">
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
-          {actionMe.map((action, index) => (
-            <ButtonsMe key={index} action={action} />
-          ))}
-        </div>
-        <div className=" text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
-
-          <p>  Hola soy Yelsin Caso, egresado de Computación e informática en 2021.</p>
-
-          <p>Tengo 25 años, mi especialidad es el desarrollo frontend y tengo el objetivo en este mundo tecnológico desarrollar experiencias de usuario únicos.</p>
-          <p>Siempre estoy aprendiendo autodidacticamente en plataformas como Udemy o Youtube.</p>
-          <p>
-          Llevo más de 2 años enfocado en el desarrollo de sistemas web, mi compromiso, es desarrollar sistemas modernos con diseños agradables e intuitivos para mis clientes.
-          </p>
-
-          <p>
-          Actualmente estoy desarrollando una tienda online para la venta de vegetales al por minoreo en mis ratos libres. visitalo aqui
-            <a target='_blank' className="text-color_blue1" href="https://yola-satipo.web.app/"> yola-satipo.web.app</a>
-            
-          </p>
-        </div>
-      </div>
-    </div>
   );
 };
 
@@ -49,7 +72,7 @@ const actionMe = [
       <img src="https://img.icons8.com/external-color-outline-adri-ansyah/50/undefined/external-awards-awards-color-outline-adri-ansyah-28.png" />
     ),
     title: "EXPERIENCIA",
-    value: "+2 años",
+    value: "+3 años",
   },
   {
     icon: (
@@ -63,13 +86,13 @@ const actionMe = [
       </svg>
     ),
     title: "CLIENTES",
-    value: "2 clientes",
+    value: "4 clientes",
   },
   {
     icon: (
       <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/50/undefined/external-portfolio-advertising-kiranshastry-lineal-color-kiranshastry.png" />
     ),
     title: "PORTAFOLIO",
-    value: "3 proyectos",
+    value: "5 proyectos",
   },
 ];
