@@ -4,7 +4,7 @@ import Slider from "../Atoms/Slider";
 
 const Home = () => {
   return (
-    <div className=" h-screen flex flex-col justify-center items-center gap-y-10 relative ">
+    <section id="home" className=" h-screen flex flex-col justify-center items-center gap-y-10 relative">
       <p className="text-xl">Hola, soy</p>
       <h1 className="text-7xl font-semibold tracking-wider ">Yelsiño</h1>
       <h2 className="text-color_purple3 text-xl">Frontend Developer</h2>
@@ -57,7 +57,7 @@ const Home = () => {
       </div>
 
       {/* <Link to='/blog' className="absolute top-10 right-0 text-color_purple3 font-bold hover:text-white cursor-default transition duration-500">Blog</Link> */}
-    </div>
+    </section>
   );
 };
 

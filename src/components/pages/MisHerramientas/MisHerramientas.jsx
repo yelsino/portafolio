@@ -2,7 +2,7 @@ import Tools from "./Tools";
 
 const MisHerramientas = () => {
   return (
-    <div className="mb-20">
+    <section id="herramienta" className="mb-20 scroll-mt-20">
       <div className="flex items-center flex-col pb-16">
         <p className="text-color_purple3">¿Que uso para desarrollar?</p>
         <h2 className="text-3xl">Mis Herramientas</h2>
@@ -11,7 +11,7 @@ const MisHerramientas = () => {
         <Tools tools={hFrontend} title="Herramientas Frontend" />
         <Tools tools={hBackend} title="Herramientas Backend" />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         color_purple1: '#160B45',
         color_purple2: '#1D1E5A',
-        color_purple3: '#8385FF',
+        color_purple3: '#9799FF',
         color_blue1: '#19D2F1',
       },
       fontFamily: {

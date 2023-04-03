@@ -2,7 +2,7 @@ import ButtonsMe from "./ButtonsMe";
 
 const AboutMe = () => {
   return (
-      <div className="mb-20">
+      <section id="abaut" className="mb-20 scroll-mt-20">
           <div className="flex items-center flex-col pb-16">
               <p className="text-color_purple3">conóceme</p>
               <h2 className="text-3xl">Sobre mí</h2>
@@ -49,11 +49,11 @@ const AboutMe = () => {
                       equipos GPS a distintos vehículos.
                   </p>
                   <p>
-                      Actualmente estoy realizando trabajos freelance e investigando herramientas de "Inteligencia Artificial" para aplicarlas en el desarrollo de sistemas web.
+                      Actualmente estoy realizando trabajos freelance e investigando herramientas de Inteligencia Artificial para aplicarlas en el desarrollo de sistemas web.
                   </p>
               </div>
           </div>
-      </div>
+      </section>
   );
 };
 

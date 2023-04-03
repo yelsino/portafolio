@@ -1,13 +1,13 @@
 // @ts-nocheck
-import screen1 from "../../Assets/screen1.png";
-import screen2 from "../../Assets/screen2.png";
-import screen3 from "../../Assets/screen3.png";
-import screen4 from "../../Assets/screen4.png";
-import { alltools } from "../Atoms/images";
+import screen1 from "../../../Assets/screen1.png";
+import screen2 from "../../../Assets/screen2.png";
+import screen3 from "../../../Assets/screen3.png";
+import screen4 from "../../../Assets/screen4.png";
+import { alltools } from "../../Atoms/images";
 
 const Portflolio = () => {
   return (
-    <div className="pb-20">
+    <section id="portafolio" className="pb-20 scroll-mt-20">
       <div className="flex items-center flex-col pb-7">
         <p className="text-color_purple3">mis proyectos</p>
         <h2 className="text-3xl">Portafolio</h2>
@@ -17,15 +17,15 @@ const Portflolio = () => {
           <div key={index} className=" bg-color_purple2 p-5 rounded-3xl ">
             <div className="max-w-xl mx-auto flex flex-col gap-y-7 ">
               <img className="rounded-2xl object-cover" src={p.img} />
-              <p className="text-xl text-left font-bold font-poppins ">
+              <div className="text-xl text-left font-bold font-poppins ">
                 {p.description}
-              </p>
+              </div>
 
         
 
-              <p className="text-lg text-left font-dm-sans text-color_purple3">
+              <div className="text-lg text-left font-dm-sans text-color_purple3">
                 {p.detalle}
-              </p>
+              </div>
               <div className="flex gap-x-5 flex-col">
                 <p className="text-left pb-2">Desarrollado con</p>
                 <div className="flex flex-wrap gap-x-5 gap-y-2 ">
@@ -62,7 +62,7 @@ const Portflolio = () => {
         ))}
 
       </div>
-    </div>
+    </section>
   );
 };
 
