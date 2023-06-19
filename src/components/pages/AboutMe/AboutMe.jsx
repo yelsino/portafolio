@@ -49,7 +49,7 @@ const AboutMe = () => {
                       equipos GPS a distintos vehículos.
                   </p>
                   <p>
-                      Actualmente estoy realizando trabajos freelance e investigando herramientas de Inteligencia Artificial para aplicarlas en el desarrollo de sistemas web.
+                      Actualmente estoy realizando trabajos freelance e investigando nuevas herramientas de desarrollo.
                   </p>
               </div>
           </div>
