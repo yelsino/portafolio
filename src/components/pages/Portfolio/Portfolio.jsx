@@ -79,7 +79,7 @@ const proyects = [
     description:
       "Aplicación web para la venta de vegetales al por minoreo a través de listas de productos.",
     detalle:
-      "Esta aplicación web permite a las personas seleccionar sus productos en distintas listas y hacer un pedidos de aquellas, esto brinda al cliente flexibilidad y ahorro de tiempo al comprar productos habituales como las papas que siempre se utiliza en una cocina o productos de una receta para días especiales.",
+      "Esta aplicación web  a las personas seleccionar sus productos en distintas listas y hacer un pedidos de aquellas, esto brinda al cliente flexibilidad y ahorro de tiempo al comprar productos habituales como las papas que siempre se utiliza en una cocina o productos de una receta para días especiales.",
     repository: "https://github.com/yelsino/ns-carlos-tienda-v2",
     liveDemo: "https://yola-satipo.web.app/",
     tools: [javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio],

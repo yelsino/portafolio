@@ -16,12 +16,12 @@ const AboutMe = () => {
               <div className=" text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
                   <p>
                       {" "}
-                      Hola soy Yelsin Caso, egresado de Computación e
-                      informática en 2021.
+                      Hola soy Yelsin Caso, egresado de <em className="text-color_purple4">Computación e
+                      informática</em> en 2021.
                   </p>
 
                   <p>
-                      Tengo 26 años, mi especialidad es el desarrollo frontend y
+                      Tengo <em className="text-color_purple4">26 años</em>, mi especialidad es el desarrollo frontend y
                       tengo el objetivo en este mundo tecnológico desarrollar
                       experiencias de usuario únicos.
                   </p>
@@ -30,7 +30,7 @@ const AboutMe = () => {
                       plataformas como Udemy o Youtube.
                   </p>
                   <p>
-                      Llevo más de 3 años enfocado en el desarrollo de sistemas
+                      Llevo más de <em className="text-color_purple4">3 años enfocado</em> en el desarrollo de sistemas
                       web, mi compromiso, es desarrollar sistemas modernos con
                       diseños agradables e intuitivos para mis clientes.
                   </p>

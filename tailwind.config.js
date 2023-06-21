@@ -6,6 +6,7 @@ module.exports = {
         color_purple1: '#160B45',
         color_purple2: '#1D1E5A',
         color_purple3: '#9799FF',
+        color_purple4: '#7477FF',
         color_blue1: '#19D2F1',
       },
       fontFamily: {

@@ -10,7 +10,7 @@ const Experiencias = () => {
             <div>
                 <div className="sm:p-5 overflow-hidden bg-color_purple2 flex gap-x-3 items-center p-2 justify-center ">
                     <div className="-translate-y-1">
-                        <img src="https://img.icons8.com/color-glass/48/null/trainers.png"/>
+                        <img src="https://img.icons8.com/color-glass/48/null/trainers.png" />
                     </div>
                     <div className="text-4xl font-bold flex items-center justify-center ">
                         <span className="text-white">F</span>
@@ -30,8 +30,8 @@ const Experiencias = () => {
                 </div>
                 <div className="text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
                     <p>
-                        Footloose Perú, empresa que se enfoca en ofrecer una
-                        amplia variedad de calzados de alta calidad y diseño
+                        Footloose Perú, <span className="text-color_purple4">empresa</span> que se enfoca en ofrecer una
+                        amplia variedad <span className="text-color_purple4">de calzados</span> de alta calidad y diseño
                         para hombres, mujeres y niños a precios accesibles.
                     </p>
 
@@ -44,12 +44,10 @@ const Experiencias = () => {
 
                     <p>
                         Me asignaron el desarrollo de un{" "}
-                        <span className="text-white">
-                            sistema para gestionar los pedidos a los proveedores
-                        </span>
+                        <span className="text-color_purple4">sistema para </span>  gestionar los <span className="text-color_purple4">pedidos a los proveedores</span>
                         , así como la creación de un módulo dentro del mismo
-                        sistema para controlar los carnets de vacunación debido
-                        a la pandemia de <span className="text-white">COVID-19</span>. Tuve la oportunidad de
+                        <span className="text-color_purple4"> sistema</span> para controlar los carnets de vacunación debido
+                        a la pandemia de <span className="text-color_purple4">COVID-19</span>. Tuve la oportunidad de
                         trabajar con lenguaje de programación Javascript y el
                         framework ReactJS.
                     </p>
@@ -81,13 +79,12 @@ const Experiencias = () => {
                 </div>
 
                 <div className="text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
-                    <p>Empresa líder en ofrecer soluciones tecnológicas de rastreo y gestión vehicular, basadas en sistemas de localización satelital que incrementan la seguridad.</p>
+                    <p>Empresa líder en ofrecer soluciones tecnológicas de <span className="text-color_purple4">rastreo y gestión vehicular</span>, basadas en sistemas de localización satelital que incrementan la seguridad.</p>
                     <p>
                         {" "}
-                        Donde colaboré en el desarrollo de un sistema de <span className="text-white">gestión
-                        de citas</span> para la atención de instalaciones y
+                        Donde colaboré en el desarrollo de un <span className="text-color_purple4">sistema de gestión de citas</span> para la atención de instalaciones y
                         mantenimientos de equipos GPS en distintos vehículos. En
-                        la empresa, seguían la <span className="text-white">metodología Scrum</span> para la gestión
+                        la empresa, seguían la <span className="text-color_purple4">metodología Scrum</span> para la gestión
                         de proyectos y trabajamos principalmente con el lenguaje
                         de programación Java utilizando Spring Boot, aunque
                         también aprendí a utilizar TypeScript.
@@ -95,13 +92,13 @@ const Experiencias = () => {
 
                     <p>
                         Durante mi tiempo en Comsatel Perú, estuvimos trabajando
-                        en la migración del sistema actual a <span className="text-white">servicios SAP</span> a
+                        en la <span className="text-color_purple4">migración</span> del sistema actual <span className="text-color_purple4"> a servicios SAP</span> a
                         través de consultas de URL que proveían datos. También
                         trabajamos en varios proyectos simultáneamente, los
                         cuales estaban conectados entre sí para realizar
-                        funciones específicas, estos eran <span className="text-white">servicios SOA</span>. El
-                        objetivo de la empresa era migrar todos estos servicios
-                        a <span className="text-white">microservicios</span>.
+                        funciones específicas, estos eran servicios SOA. El
+                        objetivo de la empresa era <span className="text-color_purple4">migrar</span> todos estos <span className="text-color_purple4">servicios SOA
+                        a microservicios</span>
                     </p>
 
                     <p>
