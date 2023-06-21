@@ -17,7 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -25,15 +25,15 @@
 <br />
 <div align="center">
   <a href="https://comsatel-tasks.web.app/" target="_blank">
-    <img src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1656606163/CLASICO/favicon_j4mpbw.svg" alt="Logo" width="80" height="80">
+    <img src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1687391313/SCREEN-MY-APPS/ikck8mg1epsuwnxpz7dd.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOLA APP</h3>
+  <h3 align="center">MI PORTAFOLIO</h3>
 
   <p align="center">
-    Una tienda virtual de vegetales, con multiples carritos de compras
+   Web de mis proyectos
     <br />
-    <a href="https://yola-satipo.web.app/"><strong>Visitalo aqui!</strong></a>
+    <a href="https://www.xn--yelsio-0wa.com/"><strong>Visitalo aqui!</strong></a>
     <br />
     <br />
    
@@ -47,28 +47,10 @@
 [![Product Name Screen Shot][product-screenshot]](https://admin-ncarlos.web.app/)
 
 
-Esta aplicación web está hecha para gestionar tareas diarias.
-
-Requerimientos funcionales del proyecto:
-* La aplicacion  permite registrar tareas
-* La aplicacion  permite eliminar y actualziar tareas
-* La aplicacion permite marcar tareas como completadas
-* La aplicacion muestra stadisticas de tareas
-
-
-Requerimientos no funcionales del proyecto:
-* Todas las tareas creadas se archivan a las 12:00 pm
-* Todas las tareas incompeltas se archivan al final del dia
-* Los colores de la aplicacion solo son 4
-
-
-
 <!-- Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template! -->
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -82,7 +64,6 @@ Para el desarrollo de este proyecto se utilizo lenguajes deprogramacion, framewo
 * [Java](https://www.java.com/es/)  -- Lenguaje de programación de alto nivel orientado a objetos
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -178,5 +159,5 @@ Gracias a estas librerias pude construir este proyecto!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-url]: https://www.linkedin.com/in/yelsin-caso-alanya-511824210/
-[product-screenshot]: https://res.cloudinary.com/dwkfj5sxb/image/upload/v1657160765/SCREEN-MY-APPS/yola-app-tienda_ev4fgd.png
+[product-screenshot]: https://res.cloudinary.com/dwkfj5sxb/image/upload/v1687391313/SCREEN-MY-APPS/ikck8mg1epsuwnxpz7dd.png
 https://yola-satipo.web.app/
