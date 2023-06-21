@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="https://comsatel-tasks.web.app/" target="_blank">
-    <img src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1687391313/SCREEN-MY-APPS/ikck8mg1epsuwnxpz7dd.png" alt="Logo" width="80" height="80">
+    <img src="https://res.cloudinary.com/dwkfj5sxb/image/upload/v1656606163/CLASICO/favicon_j4mpbw.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">MI PORTAFOLIO</h3>
