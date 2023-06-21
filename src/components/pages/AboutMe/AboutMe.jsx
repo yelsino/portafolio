@@ -21,7 +21,7 @@ const AboutMe = () => {
                   </p>
 
                   <p>
-                      Tengo <em className="text-color_purple4">26 años</em>, mi especialidad es el desarrollo frontend y
+                      Tengo <em className="text-color_purple4">26 años de edad</em>, mi especialidad es el desarrollo frontend y
                       tengo el objetivo en este mundo tecnológico desarrollar
                       experiencias de usuario únicos.
                   </p>
