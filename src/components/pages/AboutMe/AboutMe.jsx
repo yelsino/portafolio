@@ -16,8 +16,8 @@ const AboutMe = () => {
               <div className=" text-xl text-left text-color_purple3 sm:text-2xl flex flex-col gap-y-5 py-5 font-dm-sans pt-10">
                   <p>
                       {" "}
-                      Hola soy Yelsin Caso, egresado de <span className="text-color_purple4">Computación e
-                      informática</span> en 2021.
+                      Hola soy Yelsin Caso, titulado en <span className="text-color_purple4">Computación e
+                      informática</span> en 2023.
                   </p>
 
                   <p>
@@ -49,7 +49,7 @@ const AboutMe = () => {
                       equipos GPS a distintos vehículos.
                   </p>
                   <p>
-                      Actualmente estoy realizando trabajos freelance e investigando nuevas herramientas de desarrollo.
+                      Actualmente estoy realizando trabajos freelance e investigando herramientas de inteligencia artificial.
                   </p>
               </div>
           </div>

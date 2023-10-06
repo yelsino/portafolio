@@ -16,8 +16,8 @@ function App() {
                         path="/"
                         element={
                             <div className="max-w-6xl mx-auto relative  flex flex-col  ">
+                                <Header />
                                 <div className="px-10 sm:px-20 flex flex-col gap-y-10 ">
-                                    <Header />
                                     <Home />
                                     <AboutMe />
                                     <Experiencias />
@@ -52,7 +52,6 @@ function App() {
                                         </svg>
                                     </span>
                                 </div>
-                              
                             </div>
                         }
                     />

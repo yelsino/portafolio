@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { IconLanguage } from "./Icons";
 
 const Header = () => {
 
@@ -25,9 +26,9 @@ const Header = () => {
     
         return () => window.removeEventListener('scroll', handleScroll);
       }, []);
-
+    //   fixed py-5   z-30 hidden sm:flex bg-color_purple1 w-full justify-between max-w-6xl
     return (
-        <header className="fixed py-5  pr-20 z-30 hidden sm:flex bg-color_purple1 w-full">
+        <header className="w-full fixed max-w-6xl mx-auto  bg-color_purple1 z-30  flex justify-between px-10 sm:px-20 py-5  ">
             <nav>
                 <ul className="flex gap-x-5 text-color_purple3 font-medium text-lg">
                     <li className={`cursor-pointer hover:text-color_blue1 ease-in-out duration-300 ${activeMenu === 'home' ? 'text-color_blue1' : ''}`}>
@@ -47,6 +48,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            {/* <IconLanguage />     */}
         </header>
     );
 };
