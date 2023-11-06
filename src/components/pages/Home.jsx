@@ -7,7 +7,7 @@ const Home = () => {
     <section id="home" className=" h-screen flex flex-col justify-center items-center gap-y-10 relative">
       <p className="text-xl">Hola, soy</p>
       <h1 className="text-7xl font-semibold tracking-wider ">Yelsiño</h1>
-      <h2 className="text-color_purple3 text-xl">Frontend Developer</h2>
+      <h2 className="text-color_purple3 text-xl">Full Stack Developer</h2>
 
       <div className="flex justify-center gap-x-5">
         <button className="p-3 px-6 border border-color_purple3 transition ease-in-out duration-500   font-bold text-color_purple3 hover:bg-color_purple3 hover:text-white rounded-md hover:shadow-lg">
