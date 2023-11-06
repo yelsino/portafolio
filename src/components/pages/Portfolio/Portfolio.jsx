@@ -71,7 +71,7 @@ const Portflolio = () => {
 export default Portflolio;
 
 
-const {javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio, typescript, springboot,antdesign } = alltools
+const {javascript,tailwindcss,nodejs,mongodb,figma,reactjs,socketio, typescript, springboot,antdesign, next, openai, chatgpt } = alltools
 
 const proyects = [
   {
@@ -107,13 +107,13 @@ const proyects = [
     tools: [javascript,tailwindcss,figma,reactjs],
   },
   {
-    img: 'https://res.cloudinary.com/dwkfj5sxb/image/upload/v1656948862/SCREEN-MY-APPS/mobile-comsatel-task_jbxruj.png',
-    description: "Aplicación para gestionar todas tus tareas personales diarias.",
+    img: 'https://res.cloudinary.com/dwkfj5sxb/image/upload/v1699313857/SCREEN-MY-APPS/voice-app.png',
+    description: "Aplicación web para generar listas con voz e inteligencia artificial.",
     detalle:
-      "Esta aplicación web diseñada solo para dispositivos móviles donde puedes gestionar tus tareas cotidianas del día a día.",
-    repository: "https://github.com/yelsino/daily-task",
-    liveDemo: "https://comsatel-tasks.web.app/",
-    tools: [typescript,tailwindcss,figma,reactjs, springboot],
+      "Esta aplicación web diseñada para dispositivos móviles donde puedes crear listas con voz y gernerar vaucher de pago.",
+    repository: "https://github.com/yelsino/list-with-voice",
+    liveDemo: "https://list-with-voice.vercel.app",
+    tools: [typescript,tailwindcss,reactjs, next, openai,chatgpt],
   },
   {
     img: 'https://res.cloudinary.com/dwkfj5sxb/image/upload/v1678900232/SCREEN-MY-APPS/Sistema_de_prestamos_epfksy.png',

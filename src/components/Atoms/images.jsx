@@ -58,7 +58,22 @@ export const alltools =  {
         img: socketio,
         text: 'ant design',
         color: '#0079BF',
-    }
+    },
+    chatgpt: {
+        img: socketio,
+        text: 'chat-gpt',
+        color: '#0079BF',
+    },
+    openai: {
+        img: socketio,
+        text: 'openai',
+        color: '#0079BF',
+    },
+    next: {
+        img: socketio,
+        text: 'next-js',
+        color: '#0079BF',
+    },
    
 }
 
